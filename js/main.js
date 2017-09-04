@@ -19,7 +19,7 @@ function calculatePostTime(post) {
         return result;
     }
 
-    var audios = post.getElementsByClassName('audio_duration _audio_duration');
+    var audios = post.getElementsByClassName('audio_row__duration _audio_row__duration');
 
     if (audios && audios.length > 1) {
         var duration = [];
